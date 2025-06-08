@@ -9,5 +9,26 @@ body {
   margin-left: 35px;
 }
 
+#supportHero{
+  background-color: rgb(56, 126, 209);
+  color: white;
+}
+
+#supportHero a{
+  color: white;
+}
+
+#supportWrapper{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 150px;
+}
+
+#supportHero input{
+  padding: 15px 20px;
+  width: 100%;
+  border-radius: 10px;
+  border: none;
+}
 
 

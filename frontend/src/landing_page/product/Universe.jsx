@@ -34,4 +34,4 @@ const Universe = () => {
   )
 }
 
-export default Universe
+export default Universe ;
