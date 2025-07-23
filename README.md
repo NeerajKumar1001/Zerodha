@@ -46,3 +46,18 @@ A fully responsive clone of the Zerodha homepage built with **HTML** and **CSS**
 
 ## 🗂️ Folder Structure
 
+Zerodha/
+│
+├── index.html
+├── style.css
+└── assets/
+└── images, logos, and icons used
+
+
+---
+🙋‍♂️ Author
+Neeraj Kumar
+🧑‍💻 MERN Stack Developer | Java Enthusiast
+🔗 LinkedIn | 🌐 GitHub
+
+
