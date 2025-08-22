@@ -1,11 +1,17 @@
 import React, { useState } from "react";
 
 import BuyActionWindow from "./BuyActionWindow";
+// import GeneralContext from "../context/GeneralContext";
 
-const GeneralContext = React.createContext({
+export const GeneralContext = React.createContext({
   openBuyWindow: (uid) => {},
   closeBuyWindow: () => {},
 });
+
+// const GeneralContext = React.createContext({
+//   openBuyWindow: (uid) => {},
+//   closeBuyWindow: () => {},
+// });
 
 export const GeneralContextProvider = (props) => {
   const [isBuyWindowOpen, setIsBuyWindowOpen] = useState(false);
